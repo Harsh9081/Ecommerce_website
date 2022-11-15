@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-ul li{
+  display: inline-block;
+  margin:20px;
+}
+
+.nav-ul li a{
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+
+.inputBox{
+  display: block;
+  margin: 10px auto 20px auto;
+  padding: 7px;
+  width:  300px;
+  border: 1px solid skyblue;
+}
+
+.register, .product, .profile{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.appButton{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+.nav-right{
+  text-align: right;
+}
+
+.logo{
+  width: 75px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 13px;
+  margin-left: 20px;  
+}
+
+.errormsg{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: -20px;
+}
+
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul{
+  margin: 0;
+}
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+
+.search{
+  width: 400px;
+  margin: 20px;
+  height: 20px;
+  padding:10px;
+  border: 1px solid skyblue;
+}
+
+.pr-table{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pr-table tr{
+  margin: 0;
+}
+
+.pr-table tr td{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 250px;
+  height: 50px;
+}
